@@ -150,9 +150,9 @@ export const projectDetails = [
   {
     title: "Coffee App",
     image: projectImage4,
-    description: `Small personal practice project. Android application that saves different states of "How do I like my coffee?". Mainly built for Flutter and widget practice.`,
+    description: `Small personal practice project. Android application that saves different states of "How do I like my coffee?". Mainly built for Flutter and widget practice. Credits to Net Ninja`,
     techstack: "Flutter/Dart",
-    previewLink: "https://google.com",
+    previewLink: "https://www.youtube.com/watch?v=j_rCDc_X-k8&list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx",
     githubLink: "https://github.com",
   },
   {
