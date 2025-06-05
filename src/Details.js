@@ -40,7 +40,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Julio Astudillo",
-  tagline: "i do cool stuff for the web",
+  tagline: "and I make cool web apps",
   img: profile,
   about: `I'm a bilingual (English/Spanish) front-end developer with a strong focus on clean UI and smooth user experiences. I started with HTML, CSS, and vanilla JavaScript, and later explored React, TypeScript, and most recently, Flutter. I like building things that work well and feel intuitive. Whether it's a mobile app or a web page, I'm always thinking about performance, accessibility, and aesthetics. I care about design, learning fast, and adapting quickly — especially in environments where things move fast and require initiative. If it involves code, clear communication, and problem-solving, I'm in. Currently, I'm enrolled in Nucamp's Full-Stack and Mobile Development Bootcamp and learning to be a master at ReactJS, NextJS, Flutter and Figma`,
 };

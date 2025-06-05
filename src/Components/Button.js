@@ -8,6 +8,7 @@ function MyButton({ url }) {
   return (
     <button
       className="
+        m-4 md:ml-0
         border-2 border-dark text-dark
         dark:border-dark-2 dark:text-white
         bg-transparent dark:bg-dark-2

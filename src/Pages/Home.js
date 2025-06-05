@@ -60,12 +60,12 @@ function Home() {
 
   return (
     <main className="container mx-auto max-width section md:flex justify-between items-center">
-      <div>
+      <div className="text-center md:text-left">
         <h1
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi, 👋<br></br>my name is<br></br>
+          hey!<br></br>my name is<br></br>
         </h1>
         <h1
           ref={h12}
@@ -85,7 +85,7 @@ function Home() {
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Julio" />
+        <img ref={myimageref} className="justify-self-center w-1/2 mx-auto md:m-0 md:ml-auto" src={img} alt="Julio" />
       </div>
     </main>
   );
