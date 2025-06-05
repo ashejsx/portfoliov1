@@ -1,6 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
+import MyButton from "../Components/Button";
+
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -63,7 +65,7 @@ function Home() {
           ref={h11}
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
-          Hi,👋<br></br>My Name is<br></br>
+          Hi, 👋<br></br>my name is<br></br>
         </h1>
         <h1
           ref={h12}
@@ -76,10 +78,14 @@ function Home() {
           className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
         >
           {tagline}
+          <br></br>
+          
+          <MyButton url={'https://standardresume.co/r/zrZqDZVm0dsqYN9eGX_xj'}/>
+
         </h2>
       </div>
       <div className="mt-5 md:mt-0">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Pavan MG" />
+        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Julio" />
       </div>
     </main>
   );

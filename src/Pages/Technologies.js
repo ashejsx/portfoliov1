@@ -6,17 +6,24 @@ function Technologies() {
     html,
     css,
     js,
+    ts,
     react,
     redux,
+    next,
+    flutter,
+    dart,
     tailwind,
+    styledcomponents,
     bootstrap,
-    sass,
+    rsuite,
     vscode,
     git,
+    netlify,
     github,
     npm,
-    postman,
+    node,
     figma,
+    cypress
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -32,11 +39,16 @@ function Technologies() {
         <img src={html} title="html" alt="" />
         <img src={css} title="CSS" alt="" />
         <img src={js} title="JavaScript" alt="" />
+        <img src={ts} title="Typescript" alt="" />
         <img src={react} title="React" alt="" />
         <img src={redux} title="Redux" alt="" />
+        <img src={next} title="NextJS" alt="" />
+        <img src={flutter} title="Flutter" alt="" />
+        <img src={dart} title="Dart" alt="" />
         <img src={tailwind} title="Tailwind CSS" alt="" />
+        <img src={styledcomponents} title="Styled Components" alt="" />
         <img src={bootstrap} title="Bootstrap" alt="" />
-        <img src={sass} title="SASS" alt="" />
+        <img src={rsuite} title="RSuite" alt="" />
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -49,7 +61,9 @@ function Technologies() {
         <img src={github} title="Github" alt="Github" />
         <img src={figma} title="Figma" alt="Figma" />
         <img src={npm} title="NPM" alt="NPM" />
-        <img src={postman} title="Postman" alt="Postman" />
+        <img src={node} title="node" alt="NPM" />
+        <img src={netlify} title="netlify" alt="NPM" />
+        <img src={cypress} title="cypress" alt="NPM" />
       </section>
     </main>
   );
