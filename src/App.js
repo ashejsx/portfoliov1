@@ -5,8 +5,11 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
+    <>
     <Router>
       <Header />
       <Routes>
@@ -17,6 +20,9 @@ function App() {
         <Route path="/technologies" element={<Technologies />} />
       </Routes>
     </Router>
+
+    <Analytics/>
+    </>
   );
 }
 export default App;
