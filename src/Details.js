@@ -128,7 +128,7 @@ export const projectDetails = [
     image: projectImage1,
     description: `Browser-based JavaScript game inspired by Pokémon Emerald. Implements turn-based combat logic and UI.`,
     techstack: "HTML/CSS, JavaScript, Tailwind",
-    previewLink: "https://google.com",
+    previewLink: "https://pkmn-fb.vercel.app/",
     githubLink: "https://github.com/ashejsx/PKMN-FB",
   },
   {
