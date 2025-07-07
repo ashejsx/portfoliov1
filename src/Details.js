@@ -39,8 +39,8 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Julio Astudillo",
-  tagline: "and I make cool web apps",
+  name: "Julio Astudillo,",
+  tagline: "I am a web developer",
   img: profile,
   about: `I'm a bilingual (English/Spanish) front-end developer with a strong focus on clean UI and smooth user experiences. I started with HTML, CSS, and vanilla JavaScript, and later explored React, TypeScript, and most recently, Flutter. I like building things that work well and feel intuitive. Whether it's a mobile app or a web page, I'm always thinking about performance, accessibility, and aesthetics. I care about design, learning fast, and adapting quickly — especially in environments where things move fast and require initiative. If it involves code, clear communication, and problem-solving, I'm in. Currently, I'm enrolled in Nucamp's Full-Stack and Mobile Development Bootcamp and learning to be a master at ReactJS, NextJS, Flutter and Figma`,
 };
@@ -137,7 +137,7 @@ export const projectDetails = [
     description: `Personal project to practice and showcasing core concepts of Flutter/Dart. Based on the UI of Pokemon: Fierce Battle, displays the national Pokedex with +1000 Pokemon and their properties.`,
     techstack: "Flutter, Dart, Android Studio",
     previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/ashejsx/PokeDexApp",
   },
   {
     title: "Portfolio",
@@ -153,7 +153,7 @@ export const projectDetails = [
     description: `Small personal practice project. Android application that saves different states of "How do I like my coffee?". Mainly built for Flutter and widget practice. Credits to Net Ninja`,
     techstack: "Flutter/Dart",
     previewLink: "https://www.youtube.com/watch?v=j_rCDc_X-k8&list=PL4cUxeGkcC9giLVXCHSQmWqlHc9BLXdVx",
-    githubLink: "https://github.com",
+    githubLink: "https://github.com/ashejsx/FlutCoffee",
   },
   {
     title: "Coming Soon",

@@ -80,7 +80,7 @@ function Home() {
           {tagline}
           <br></br>
           
-          <MyButton url={'https://standardresume.co/r/zrZqDZVm0dsqYN9eGX_xj'}/>
+          <MyButton url={'https://drive.google.com/file/d/1Br4-D_xf1uhPUzxN6vu7HcS_iRrU6rzj/view?usp=sharing'}/>
 
         </h2>
       </div>
